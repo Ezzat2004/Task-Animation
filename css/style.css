@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    top: 0;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(6, 6, 245);
+    right: 88%;
+    animation-name: change1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+@keyframes change1{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: violet;
+        
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: rgb(81, 255, 0);
+    }
+    100%{
+        background-color: rgb(0, 255, 191);
+        right: 2%;
+    }
+}
+/* //////// */
+.div2{
+    top: 150px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(6, 6, 245);
+    left: 88%;
+    animation-name: change2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+@keyframes change2{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: violet;
+        
+    }
+    50%{
+        background-color: rgb(37, 21, 141);
+    }
+    75%{
+        background-color: rgb(0, 255, 234);
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+        left: 2%;
+    }
+}
+/* /////// */
+.div3{
+    top: 300px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    right: 88%;
+    animation-name: change3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+@keyframes change3{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: violet;
+        
+    }
+    50%{
+        background-color: rgb(255, 0, 55);
+    }
+    75%{
+        background-color: rgb(81, 255, 0);
+    }
+    100%{
+        background-color: rgb(81, 0, 64);
+        right: 2%;
+    }
+}
+/* ///////// */
+.div4{
+    top: 450px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    left: 88%;
+    animation-name: change4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    
+}
+@keyframes change4{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: violet;
+        
+    }
+    50%{
+        background-color: rgb(63, 63, 42);
+    }
+    75%{
+        background-color: rgb(81, 255, 0);
+    }
+    100%{
+        background-color: rgb(90, 185, 82);
+        left: 2%;
+    }
+}
+/* ///// */
+.div5{
+    top: 600px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    right: 88%;
+    animation-name: change5;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    
+}
+@keyframes change5{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: rgb(90, 8, 90);
+        
+    }
+    50%{
+        background-color: rgb(205, 69, 19);
+    }
+    75%{
+        background-color: rgb(81, 255, 0);
+    }
+    100%{
+        background-color: rgb(71, 124, 111);
+        right: 2%;
+    }
+}
+/* //// */
+.div6{
+    top: 750px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    left: 88%;
+    animation-name: change6;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    
+}
+@keyframes change6{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: rgb(84, 1, 84);
+        
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: rgb(157, 198, 137);
+    }
+    100%{
+        background-color: rgb(36, 62, 56);
+        left: 2%;
+    }
+}
+/* //// */
+.div7{
+    top: 900px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    right: 88%;
+    animation-name: change7;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 14s;
+    
+}
+@keyframes change7{
+    0%{
+        background-color: rgb(6, 6, 52);
+    }
+    25%{
+        background-color: violet;
+        
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: rgb(210, 224, 203);
+    }
+    100%{
+        background-color: rgb(9, 67, 52);
+        right: 2%;
+    }
+}
+/* /////// */
+.div8{
+    top: 1150px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    left: 88%;
+    animation-name: change8;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 16s;
+    
+}
+@keyframes change8{
+    0%{
+        backgrxound-color: rgb(19, 19, 33);
+    }
+    25%{
+        background-color: rgb(121, 27, 121);
+        
+    }
+    50%{
+        background-color: rgb(155, 6, 192);
+    }
+    75%{
+        background-color: rgb(251, 0, 255);
+    }
+    100%{
+        background-color: rgb(3, 140, 140);
+        left: 2%;
+    }
+}
